@@ -1,0 +1,23 @@
+{
+  "name": "global-banner",
+  "version": "1.0.0",
+  "description": "banner组件",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "src": {
+        "title": "图片地址",
+        "type": "string",
+        "format": "image"
+      },
+      "link": {
+        "title": "跳转链接",
+        "type": "string",
+        "format": "url"
+      }
+    },
+    "required": [
+      "src"
+    ]
+  }
+}
